@@ -6,7 +6,7 @@ int num = int.Parse(Console.ReadLine());
 int num_out;
 
 // проверяем действительно ли трехзначное число введено
-if (num > 1000 || num < 100)
+if (num > 999 || num < 100)
 {
     Console.WriteLine("Это не трехзначное число");
 }
