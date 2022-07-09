@@ -1,4 +1,6 @@
-﻿Console.Clear();
+﻿//напишите программу принимающую на вход трехзначное число и на выход выводит последнюю его цифру
+
+Console.Clear();
 Console.Write("Введите трехзначное число:  ");
 int num = int.Parse(Console.ReadLine());
 int num_out;
